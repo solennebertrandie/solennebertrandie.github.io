@@ -1,0 +1,126 @@
+.navbar-minimalist {
+  height: 70px;
+  background: white;
+  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight : bold
+  font-size : 60px;
+  color: red;
+  font-family: 'Slabo 27px', serif;
+
+}
+
+.narbar-minimalist a {
+  display : block; 
+  padding : 0; 
+  background : #000;         
+  color : #000000; 
+  text-decoration : none; 
+  width : 144px;
+  display: flex;
+}
+
+
+.navbar-minimalist img {
+  width: 50px;
+  height: 50px;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 80vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 5px 1em 2;
+  border-radius: 2%;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 5px rgba(0, 0, 1, 1);
+  font-family: 'Fredoka One', cursive;
+  padding-bottom: 240px
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: #000000;
+  opacity: 2;
+  margin-bottom: 50px;
+  font-family:'Lora', serif;
+  font-weight: bold;
+  padding: 5px 5px 1em 5;
+  text-shadow: 0px 5px rgba(255,255,255);
+  
+}
+
+.btn-medium {
+  color: white;
+  border: 8px solid white;
+  padding: 10px 25px;
+  border-radius: 90px;
+  font-weight: normal;
+  opacity: 0.6;
+  margin-bottom: 100px;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+#myself {
+  width: 90px;
+  height: 120px;
+  border-radius: 2%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+
+}
+
+#apple {
+  position: absolute;
+  top: 413px;
+  right: 200px;
+  left: 1000px;
+  width: 40px;
+  border-radius: 50%; 
+}
